@@ -123,3 +123,71 @@ hr {
   text-align: center;
   min-height: 150px;
 }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  #header #name {
+    top: 190px;
+  }
+
+  #contact {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  #profile, #portfolio, #skills, #experience, #education {
+    padding: 50px 100px;
+  }
+
+  .portfolio-description p {
+    font-size: 0.9em;
+  }
+
+  #footer {
+    padding: 20px 100px;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+  #header #name {
+    top: 70px;
+  }
+
+  #profile, #portfolio, #skills, #experience, #education {
+    padding: 50px 10px;
+  }
+
+  #profile img {
+    margin-top: 20px;
+  }
+
+  #contact {
+    margin-top: 40px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .portfolio-description p {
+    font-size: 0.9em;
+  }
+
+  #footer {
+    padding: 20px 10px;
+  }
+
+  #footer p {
+    text-align: center;
+    margin: 10px;
+  }
+
+}
